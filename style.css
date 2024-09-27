@@ -1,6 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNod25wYm1uYTg2bmc5b2F2azR4bHYyb2NqeGE2OHl5dmQ3NmdmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PTBVMsYIOB0SBP4MVe/giphy.webp");
+  background-size: cover;
+}
+
+.main img {
+  max-width: 500px;
+}
+
+.data {
+  margin: 0 auto;
+  max-width: 500px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: rgb(36, 146, 123);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buttons button {
+  font-size: 16pt;
+  padding: 10px 40px;
+  margin: 0 15px;
+  background-color: rgb(36, 146, 123);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  background-color: rgb(10, 102, 194);
+  transition: 0.5s;
+}
+
+#github:hover {
+  background-color: rgb(247, 129, 102);
+  transition: 0.5s;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#link-footer {
+  font-weight: bold;
+}
+
+#link-footer:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: rgb(36, 146, 123);
 }
